@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>MDN Content Kit Template</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>Advanced JavaScript fundamentals content kit</h1>
+
+<p>This content kit provides learning material to allow intermediate web developers to level up their skills, learning real world techniques to take them past rudimentary syntax towards a solid foundation of skills than can be utilized to create modern web applications. It'll be visual; you'll have fun along the way.</p>
+
+<p>
+Technology level: This content kit focuses on advanced JavaScript techniques: most of this content is well-supported across modern web browsers. Where this is not the case, the content will be clearly labeled. The examples make use of polyfills where possible to ensure maximum browser compatibility.
+</p>
+<p>
+The base support level for the content kit is IE10.
+</p>
+
+<p>
+For any issues, submit issues against the <a href="https://github.com/mdn/advanced-js-fundamentals-ck">Advanced JS fundamentals CK</a> Github repo.
+</p>
+
+<h3>Versioning information</h3>
+
+<p>Version 0.1, current as of June 21st 2015.</p>
+
+<p>This content kit is published under the Mozilla Public License, version 2.0. (A fairly permissive license, compatible with MDN, which allows good reuse.) You can substitute it for another suitable license if you wish.</p>
+
+<h2>What should the presenter have?</h2>
+
+<p>What hardware and software will the presenter ideally have?</p>
+
+<ul>
+    <li>Software
+      <ul>
+        <li>A Linux, Windows or Mac OSX computer.</li>
+        <li>1-3 modern browsers installed. This could include <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, <a href="www.opera.com/download">Opera</a>, <a href="http://www.apple.com/safari/">Safari</a>, or <a href="http://windows.microsoft.com/en-US/internet-explorer/download-ie">Internet Explorer 10+</a>.</li>
+        <li>A decent text editor installed. Examples include <a href="http://www.sublimetext.com/">Sublime Text</a>, <a href="https://wiki.gnome.org/Apps/Gedit">gedit</a>, or <a href="http://notepad-plus-plus.org/">Notepad++</a>.</li>
+      </ul>
+    </li>
+    <li>Coding knowledge
+      <ul>
+        <li>Intermediate to expert JS knowledge, such as
+          <ul>
+            <li>Web APIs such as <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas</a>, <a href="https://developer.mozilla.org/en-US/docs/WebSockets">Web Sockets</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation">Geolocation</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">Web RTC</a>.</li>
+            <li>ES6 features such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">promises</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator">generators</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">classes</a>.</li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Object-oriented JS</a></li>
+            <li>JS prototype methods such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach()</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter()</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">reduce()</a>.</li>
+          </ul>
+        </li>
+        <li>intermediate HTML knowledge</li>
+        <li>intermediate CSS knowledge</li>
+      </ul>
+    </li>
+</ul>
+
+
+<h2>What should the audience have?</h2>
+
+<p>What hardware and software should the audience ideally have?</p>
+
+<ul>
+    <li>Coding knowledge: it would be helpful to already understand:
+      <ul>
+        <li>Basic JavaScript knowledge
+          <ul>
+            <li>Variables</li>
+            <li>Arrays and objects</li>
+            <li>Conditionals</li>
+            <li>Functions</li>
+            <li>Loops</li>
+          </ul>
+        </li>
+        <li>Rudimentary DOM manipulation
+          <ul>
+            <li>Querying elements</li>
+            <li>Changing content</li>
+            <li>Adding classes</li>
+          </ul>
+        </li>
+        <li>Basic CSS
+          <ul>
+             <li>Styling by class and id</li>
+             <li>responsive/media queries</li>
+             <li>states</li>
+             <li>animation/transition/transform</li>
+             <li>intermediate layout, e.g. floating, positioning, flexbox?</li>
+          </ul>
+        </li>
+        <li>HTML fundamentals
+          <ul>
+            <li>Basic HTML</li>
+            <li>Classes and ids</li>
+            <li>Block and inline elements</li>
+            <li>Semantics, structure, clean markup (POSH?)</li>
+        </li>
+      </ul>
+    </li>
+
+</ul>
+
+
+<h2>Learning objectives</h2>
+
+<p>After you present or teach this content kit, your audience will know:</p>
+
+<ul>
+  <li>How to use array/prototype methods to map/filter/sort/etc.</li>
+  <li>How to create object-oriented code.</li>
+  <li>The fundamentals of functional programming with JS.</li>
+  <li>How to use the most useful new ES6 features, such as generators, promises and classes.</li>
+  <li>Events in detail.</li>
+  <li>How to make use of web socket and asynchronous JS systems.</li>
+  <li>Patterns such as chaining and observable.</li>
+</ul>
+
+<h2>Link to materials</h2>
+
+<p>Project resources overview</p>
+
+<ol>
+  <li>Array/Object prototype methods
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li>
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>Object-oriented JavaScript
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li>
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>Functional JavaScript
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li>
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>Generators
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li>
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>Events
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li>
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>Asynchronous JavaScript
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li> 
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>Socket interactions
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li>  
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>Building a chaining API
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li> 
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+  <li>The Observable pattern
+    <ul>
+        <li>Live demo page: link</li>
+        <li>Demo source code: link</li>    
+        <li>Slides: link</li><li>Tutorial: link</li>
+    </ul>
+  </li>
+</ol>
+
+<h2>Presentation setup</h2>
+
+<p>In each case, you can present a lesson on each feature by using the relevant slides linked in the sections above.</p>
+
+<h2>Demo setup</h2>
+
+<p>In each case, you can show a demo of each feature by using the relevant live demos linked in the sections above.</p>
+
+
+<h2>Active learning</h2>
+
+<p>Each slideshow has multiple links to live examples you can play with to get first hand experience of each point in action.</p>
+
+<h2>Frequently asked questions (FAQs)</h2>
+
+<p>
+List any questions that the presenter might get here, especially any "difficult" questions. Or link to a file of FAQs.
+</p>
+
+<dl>
+  <dt>Question 1</dt>
+  <dd>Question 1 answer</dd>
+  <dt>Question 2</dt>
+  <dd>Question 2 answer</dd>
+  <dt>etc.</dt>
+  <dd>etc.</dd>
+</dl>
